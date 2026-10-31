@@ -1,0 +1,12 @@
+{
+  "name": "media-customer-usage-meter",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "example": "node --experimental-strip-types src/example.ts",
+    "test": "node --experimental-strip-types --test src/media_usage_meter.test.ts"
+  },
+  "dependencies": {
+    "zod": "^3.25.0"
+  }
+}
